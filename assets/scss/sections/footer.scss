@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  background: #3c4955;
+  &-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+  .copyright {
+    font-family: Lato;
+    font-size: 16px;
+    color: #ffffff;
+    &__link {
+      font-weight: bold;
+      color: #ffffff;
+    }
+  }
+  .social {
+    display: flex;
+    margin: 55px 0;
+    padding: 0;
+    list-style: none;
+    &__link {
+      margin-left: 40px;
+    }
+  }
+
+}

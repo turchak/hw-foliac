@@ -1,0 +1,29 @@
+// fonts
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700&subset=latin-ext"); // libs
+@import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.css"); // common
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+}
+
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+// sections
+@import "sections/header";
+@import "sections/portfolio";
+@import "sections/team";
+@import "sections/contact";
+@import "sections/footer";
+// blocks
+@import "blocks/filter";

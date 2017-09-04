@@ -1,0 +1,56 @@
+.team {
+  height: 500px;
+  background: url(../img/form-bg.jpg) no-repeat 50% 50%;
+  background-size: cover;
+  .content {
+    max-width: 550px;
+  }
+  .slider {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 550px;
+    font-family: Lato, sans-serif;
+    color: #fff;
+    &__header {
+      &-title {
+        margin: 90px 0 10px;
+        font-size: 30px;
+        font-weight: bold;
+      }
+      &-text {
+        font-size: 22px;
+      }
+    }
+    &__info {
+      margin-top: 40px;
+      font-size: 16px;
+      line-height: 25px;
+    }
+    &__button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 40px;
+      width: 152px;
+      height: 40px;
+      border-radius: 3px;
+      border: solid 2px #3c4955;
+      &-text {
+        font-size: 14px;
+        font-weight: bold;
+        color: #3c4955;
+        text-transform: uppercase;
+      }
+    }
+  }
+}
+.slick-slide {
+  outline: none;
+  margin: 15px;
+}
+.slider-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}

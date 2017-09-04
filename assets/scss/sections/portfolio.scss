@@ -1,0 +1,26 @@
+.portfolio-container {
+  padding: 0;
+}
+.portfolio {
+  padding: 90px 0 100px;
+
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 30px 0 0;
+  }
+
+  &__item {
+    margin: 20px;
+    width: 450/1180 * 100%;
+
+    &--wide {
+      width: 650/1180 * 100%;
+    }
+  }
+
+  &__img {
+    display: block;
+    width: 100%;
+  }
+}
